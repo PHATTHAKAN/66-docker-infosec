@@ -19,7 +19,7 @@ services:
             - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
             - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
     myapp:
-        image: phatthakan/app:1.1.0
+        image: phatthakan/app:1.2.0
         container_name: app
         ports: 
            - 1337:1337
